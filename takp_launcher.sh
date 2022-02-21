@@ -142,7 +142,7 @@ export DXVK_HUD=fps
 #export DXVK_HUD=full
 
 install() {
-	sudo apt install wine xdotool libvulkan1:i386 p7zip-full
+	sudo apt install wine xdotool libvulkan1:i386
 	mkdir -p "${wine_prefix}"
 	# Some rudimentary caching
 	mkdir -p "${cache_base}"
