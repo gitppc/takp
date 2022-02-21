@@ -5,7 +5,7 @@ set -e
 # Need gtk libs in order to draw windows, and it'll pull in all but the 32bit graphics drivers for x11 we need.
 # CentOS7: gtk3.i686
 
-midi=0
+midi=1
 # Config file for usernames and passwords
 
 account_password() {
