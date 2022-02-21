@@ -233,6 +233,7 @@ play() {
 }
 
 run() {
+	start_midi
 	account=$1
 	pass=$(account_password $account)
 	dir="${takp_dir}$(account_suffix $account)"
